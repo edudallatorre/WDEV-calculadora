@@ -1,1 +1,1 @@
-# WDEV-calculadora![Alt text](img_calculadora.jpg?raw=true "img_calculadora.jpg")
+# WDEV-calculadora![Alt text](img.jpg?raw=true "img.jpg")
