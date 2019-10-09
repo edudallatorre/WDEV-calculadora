@@ -1,21 +1,51 @@
-<!doctype html>
-<html lang="pt">
-  <head>
+<!DOCTYPE html>
+<html>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="css/index.css"/>
-    <script type="text/javascript" src="programa.js"></script>
-    <title>Exemplo de JS</title>
-  </head>
-  <body>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculadora 2.0</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
 
-    <h3>Testando...</h3>
-    <button onclick="executar()">Clique Aqui</button>
-    <div id="resultado"></div>
-   
+    <link rel="stylesheet" href="lib/css.css">
+    <script src="lib/javascript.js"></script>
 
+</head>
+
+<body>
+    <div class="container">
+        <textarea id="visor">0</textarea>
+
+        <table>
+            <tbody>
+                <tr>
+                    <td><button onclick="digitaOperando(7)">7</button></td>
+                    <td><button onclick="digitaOperando(8)">8</button></td>
+                    <td><button onclick="digitaOperando(9)">9</button></td>
+                    <td><button onclick="digitaOperador('/')">/</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="digitaOperando(4)">4</button></td>
+                    <td><button onclick="digitaOperando(5)">5</button></td>
+                    <td><button onclick="digitaOperando(6)">6</button></td>
+                    <td><button onclick="digitaOperador('x')">x</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="digitaOperando(1)">1</button></td>
+                    <td><button onclick="digitaOperando(2)">2</button></td>
+                    <td><button onclick="digitaOperando(3)">3</button></td>
+                    <td><button onclick="digitaOperador('-')">-</button></td>
+                </tr>
+                <tr>
+                    <td><button onclick="digitaOperando(0)">0</button></td>
+                    <td><button onclick="limpar()">c</button></td>
+                    <td><button onclick="executa()">=</button></td>
+                    <td><button onclick="digitaOperador('+')">+</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
 </body>
+
 </html>

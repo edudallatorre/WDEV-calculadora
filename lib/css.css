@@ -1,0 +1,44 @@
+body{
+    background-color: rgba(110, 110, 110, 0.445);
+}
+
+@media screen and (min-width: 640px) {
+    .container{
+        background-image: linear-gradient(to bottom, rgb(95, 212, 212), darkcyan, rgb(1, 83, 83));
+        box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+        height: 500px;
+        width: 400px;
+        /* margin-left: 30%; */
+        border-radius: 8% 8% 8% 8%;
+        margin: 0 auto;
+    }
+}
+
+#visor{
+    width: 300px;
+    height:  70px;
+    font-size: 26pt;
+    margin-left: 12%;
+    margin-top: 5%;
+    background-color: rgba(0, 0, 0, 0.452);
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+    pointer-events: none;
+    border-radius: 5% 5% 5% 5%;
+    
+}
+
+table td{
+    font-size: 26pt;
+    padding: 2%;
+}
+
+table{
+    margin-left: 10%;
+}
+
+button{
+    background-color: rgba(255, 255, 255, 0.5);
+    font-size: 26pt; 
+    width:  72px;
+    height: 65px;
+}
